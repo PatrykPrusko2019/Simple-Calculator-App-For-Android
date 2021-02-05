@@ -49,9 +49,9 @@ public class MainActivity extends Activity {
     private Double firstNumber = null;
     private String currentOperator = "=";
 
-    private static String STATE_ACTUAL_FIRST_NUMBER = "StateFirstNumber"; // current data states of objects
-    private static String STATE_CURRENT_OPERATOR = "StateCurrentOperator";
-    private static String STATE_CURRENT_RESULT = "StateCurrentResult";
+    private static final String STATE_ACTUAL_FIRST_NUMBER = "StateFirstNumber"; // current data states of objects
+    private static final String STATE_CURRENT_OPERATOR = "StateCurrentOperator";
+    private static final String STATE_CURRENT_RESULT = "StateCurrentResult";
 
 
     @Override
